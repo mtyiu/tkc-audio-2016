@@ -1,0 +1,21 @@
+#top {
+	height: 250px;
+}
+
+#top .parallax h3 {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	text-shadow: 5px 5px 50px #fff;
+}
+#top .parallax h3 small {
+	color: #d50000;
+	font-size: 50%;
+}
+
+.parallax img {
+	width: 100%;
+}
