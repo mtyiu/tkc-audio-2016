@@ -1,0 +1,69 @@
+/* Common */
+body {
+	position: relative;
+}
+
+/* Top */
+#top {
+	height: 250px;
+	margin-bottom: 60px;
+}
+
+#top h1 {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000;
+}
+#top h1 small {
+	color: #d50000;
+}
+
+.parallax img {
+	width: 100%;
+}
+
+/* Navbar */
+.navbar {
+	border-radius: 0;
+}
+.navbar-static-top {
+	margin-top: -60px;
+}
+
+/* Content */
+.feature {
+	text-align: center;
+}
+.feature img {
+	width: 100%;
+	max-width: 300px;
+}
+.schedule tbody > tr > td {
+	border: 0;
+}
+.schedule .date {
+	text-align: center;
+	vertical-align: middle;
+}
+.schedule .center {
+	text-align: center;
+	width: 20%;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	color: #aaa;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+footer hr {
+	width: 30%;
+	min-width: 320px;
+	border-color: #eee;
+}
