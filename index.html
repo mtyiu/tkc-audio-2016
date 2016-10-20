@@ -3,63 +3,88 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="css/materialize.css" />
 		<link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 		<link type="text/css" rel="stylesheet" href="css/index.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<body>
-		<div id="top" class="parallax-container">
-			<div class="parallax">
-				<img src="images/src/radio.jpg" />
-				<h3>
-					2016<br />
-					<small>Yeah</small>
-				</h3>
-			</div>
+		<div id="top" class="parallax-window" data-parallax="scroll" data-image-src="images/src/radio.jpg">
+			<h1>
+				2016<br />
+				<small>Yeah</small>
+			</h1>
 		</div>
-		<nav>
-			<div class="nav-wrapper red accent-4">
-				<ul id="nav-mobile">
-					<li><a href="sass.html">Sass</a></li>
-					<li><a href="badges.html">Components</a></li>
-					<li><a href="collapsible.html">JavaScript</a></li>
-				</ul>
+		<!-------------------------------------------------------------------------->
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="sass.html">Sass</a></li>
+						<li><a href="badges.html">Components</a></li>
+						<li><a href="collapsible.html">JavaScript</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
+		<!-------------------------------------------------------------------------->
 		<div class="container">
-			<table id="schedule">
-				<thead>
-					<tr>
-						<th>日期</th>
-						<th>內容</th>
-						<th>筆記</th>
-						<th>錄影</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td rowspan="3">10 月 23 日</td>
-						<td>一、甚麼是音響事奉？</td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>二、聲音的基本知識</td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>三、音響接線、接頭及配件</td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
+			<h2>YEAH</h2>
+
+			<hr />
+			<h2>內容</h2>
+			<div id="lessons"></div>
 		</div>
+
+		<script id="lesson-tmpl" type="text/x-handlebars-template">
+			{{#if active}}
+			<div id="{{id}}" class="panel panel-primary">
+			{{else}}
+			<div id="{{id}}" class="panel panel-default">
+			{{/if}}
+				<div class="panel-heading">{{ date }}</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-3{{#if even}} col-sm-push-9{{/if}} feature">
+							<img src="images/placeholder.svg" class="img-circle">
+						</div>
+						<div class="col-sm-9{{#if even}} col-sm-pull-3{{/if}}">
+							<table class="schedule table">
+								<thead>
+									<tr>
+										<th>內容</th>
+										<th class="center">筆記</th>
+										<th class="center">錄影</th>
+									</tr>
+								</thead>
+								<tbody>
+									{{#each chapters}}
+									<tr>
+										<td>{{title}}</td>
+										<td class="center">-</td>
+										<td class="center">-</td>
+									</tr>
+									{{/each}}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/handlebars.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>

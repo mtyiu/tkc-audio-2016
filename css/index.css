@@ -1,8 +1,9 @@
+/* Top */
 #top {
 	height: 250px;
 }
 
-#top .parallax h3 {
+#top h1 {
 	position: absolute;
 	top: 60px;
 	left: 0;
@@ -11,11 +12,35 @@
 	text-align: center;
 	text-shadow: 5px 5px 50px #fff;
 }
-#top .parallax h3 small {
+#top h1 small {
 	color: #d50000;
-	font-size: 50%;
 }
 
 .parallax img {
 	width: 100%;
+}
+
+/* Navbar */
+.navbar {
+	border-radius: 0;
+}
+
+/* Content */
+.feature {
+	text-align: center;
+}
+.feature img {
+	width: 100%;
+	max-width: 300px;
+}
+.schedule tbody > tr > td {
+	border: 0;
+}
+.schedule .date {
+	text-align: center;
+	vertical-align: middle;
+}
+.schedule .center {
+	text-align: center;
+	width: 20%;
 }
