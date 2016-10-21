@@ -106,7 +106,7 @@ $(function() {
 			$nav.removeClass('navbar-fixed-top');
 			$nav.addClass('navbar-static-top');
 		}
-	});
+	}).scroll();
 
 	$('#menu > ul > li > a.scrollTo').click(function(e) {
 		var target = $(this).attr('href');
