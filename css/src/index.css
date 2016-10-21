@@ -44,10 +44,10 @@ body {
 }
 .schedule tbody > tr > td {
 	border: 0;
+	vertical-align: middle;
 }
 .schedule .date {
 	text-align: center;
-	vertical-align: middle;
 }
 .schedule .center {
 	text-align: center;

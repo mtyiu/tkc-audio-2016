@@ -8,24 +8,31 @@ $(function() {
 		{
 			"id": "oct23",
 			"date": "10 月 23 日",
-			"image": "src/cables.jpg",
+			"image": "cables.jpg",
 			"active": true,
 			"chapters": [
 				{
-					"title": "一、甚麼是音響事奉？"
+					"title": "課程簡介",
+					"pdf": "0_課程簡介.pdf"
 				},
 				{
-					"title": "二、聲音的基本知識"
+					"title": "一、甚麼是音響事奉？",
+					"pdf": "1_甚麼是音響事奉.pdf"
 				},
 				{
-					"title": "三、音響接線、接頭及配件"
+					"title": "二、聲音的基本知識",
+					"pdf": "2_聲音的基本知識.pdf"
+				},
+				{
+					"title": "三、音響接線、接頭及配件",
+					"pdf": "3_接線、接頭及配件.pdf"
 				}
 			]
 		},
 		{
 			"id": "oct30",
 			"date": "10 月 30 日",
-			"image": "src/mic.jpg",
+			"image": "mic.jpg",
 			"even": true,
 			"chapters": [
 				{
@@ -42,7 +49,7 @@ $(function() {
 		{
 			"id": "nov6",
 			"date": "11 月 6 日",
-			"image": "src/worship.jpg",
+			"image": "worship.jpg",
 			"chapters": [
 				{
 					"title": "七、敬拜隊與音響員的團隊合作"
@@ -55,7 +62,7 @@ $(function() {
 		{
 			"id": "nov13",
 			"date": "11 月 13 日",
-			"image": "src/mixer.jpg",
+			"image": "mixer.jpg",
 			"even": true,
 			"chapters": [
 				{
@@ -66,7 +73,7 @@ $(function() {
 		{
 			"id": "nov27",
 			"date": "11 月 27 日",
-			"image": "src/mixing-desk.jpg",
+			"image": "mixing-desk.jpg",
 			"chapters": [
 				{
 					"title": "九、混音器"
@@ -107,6 +114,16 @@ $(function() {
 		$body.animate({
 			scrollTop: $(target).offset().top - 50
 		});
+	});
+
+	$('.download').click(function(e) {
+		var $this = $(this);
+		ga('send', 'event', 'Download', $this.data('date'), $this.data('title'));
+	});
+
+	$('.video').click(function(e) {
+		var $this = $(this);
+		ga('send', 'event', 'Video', $this.data('date'), $this.data('title'));
 	});
 
 	$('body').scrollspy({ target: '#menu' });
