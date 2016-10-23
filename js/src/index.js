@@ -13,19 +13,23 @@ $(function() {
 			"chapters": [
 				{
 					"title": "課程簡介",
-					"pdf": "0_課程簡介.pdf"
+					"pdf": "0_課程簡介.pdf",
+					"youtube": "Wg9upy-ilPA"
 				},
 				{
 					"title": "一、甚麼是音響事奉？",
-					"pdf": "1_甚麼是音響事奉.pdf"
+					"pdf": "1_甚麼是音響事奉.pdf",
+					"youtube": "Enu4KaUJpac"
 				},
 				{
 					"title": "二、聲音的基本知識",
-					"pdf": "2_聲音的基本知識.pdf"
+					"pdf": "2_聲音的基本知識.pdf",
+					"youtube": "tcqXp6v44fU"
 				},
 				{
 					"title": "三、音響接線、接頭及配件",
-					"pdf": "3_接線、接頭及配件.pdf"
+					"pdf": "3_接線、接頭及配件.pdf",
+					"youtube": "9gBHgw3bcXA"
 				}
 			]
 		},
