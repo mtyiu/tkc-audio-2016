@@ -9,7 +9,6 @@ $(function() {
 			"id": "oct23",
 			"date": "10 月 23 日",
 			"image": "cables.jpg",
-			"active": true,
 			"chapters": [
 				{
 					"title": "課程簡介",
@@ -38,15 +37,19 @@ $(function() {
 			"date": "10 月 30 日",
 			"image": "mic.jpg",
 			"even": true,
+			"active": true,
 			"chapters": [
 				{
-					"title": "四、咪高峰"
+					"title": "四、咪高峰",
+					"pdf": "4_咪高峰.pdf"
 				},
 				{
-					"title": "五、效果器"
+					"title": "五、效果器",
+					"pdf": "5_效果器.pdf"
 				},
 				{
-					"title": "六、喇叭"
+					"title": "六、喇叭",
+					"pdf": "6_喇叭.pdf"
 				}
 			]
 		},
