@@ -41,39 +41,42 @@ $(function() {
 			"chapters": [
 				{
 					"title": "四、咪高峰",
-					"pdf": "4_咪高峰.pdf"
+					"pdf": "4_咪高峰.pdf",
+					"youtube": "u1NCpQ85a8o"
 				},
 				{
 					"title": "五、效果器",
-					"pdf": "5_效果器.pdf"
+					"pdf": "5_效果器.pdf",
+					"youtube": "f_X_ZrLYht8"
 				},
 				{
 					"title": "六、喇叭",
-					"pdf": "6_喇叭.pdf"
+					"pdf": "6_喇叭.pdf",
+					"youtube": "rqbWSOhGnOw"
 				}
 			]
 		},
 		{
 			"id": "nov6",
 			"date": "11 月 6 日",
-			"image": "worship.jpg",
+			"image": "mixer.jpg",
 			"chapters": [
 				{
-					"title": "七、敬拜隊與音響員的團隊合作"
-				},
-				{
-					"title": "八、音響設置流程"
+					"title": "七、混音器（上）"
 				}
 			]
 		},
 		{
 			"id": "nov13",
 			"date": "11 月 13 日",
-			"image": "mixer.jpg",
+			"image": "worship.jpg",
 			"even": true,
 			"chapters": [
 				{
-					"title": "九、混音器"
+					"title": "八、敬拜隊與音響員的團隊合作"
+				},
+				{
+					"title": "九、音響設置流程"
 				}
 			]
 		},
@@ -83,7 +86,7 @@ $(function() {
 			"image": "mixing-desk.jpg",
 			"chapters": [
 				{
-					"title": "九、混音器"
+					"title": "十、混音器（下）"
 				},
 				{
 					"title": "實習"
