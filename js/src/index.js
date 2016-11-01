@@ -92,8 +92,8 @@ $(function() {
 					"pdf": "10_混音器（下）- Soundcraft GB2.pdf"
 				},
 				{
-					"title": "十、混音器（下）：Jamhub Bedroom",
-					"pdf": "10_混音器（下）- Jamhub Bedroom.pdf"
+					"title": "十、混音器（下）：JamHub Bedroom",
+					"pdf": "10_混音器（下）- JamHub Bedroom.pdf"
 				},
 				{
 					"title": "實習"
