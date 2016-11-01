@@ -62,7 +62,8 @@ $(function() {
 			"image": "mixer.jpg",
 			"chapters": [
 				{
-					"title": "七、混音器（上）"
+					"title": "七、混音器（上）",
+					"pdf": "7_混音器（上）.pdf"
 				}
 			]
 		},
@@ -86,7 +87,12 @@ $(function() {
 			"image": "mixing-desk.jpg",
 			"chapters": [
 				{
-					"title": "十、混音器（下）"
+					"title": "十、混音器（下）：Soundcraft GB2",
+					"pdf": "10_混音器（下）- Soundcraft GB2.pdf"
+				},
+				{
+					"title": "十、混音器（下）：Jamhub Bedroom",
+					"pdf": "10_混音器（下）- Jamhub Bedroom.pdf"
 				},
 				{
 					"title": "實習"
