@@ -37,7 +37,6 @@ $(function() {
 			"date": "10 月 30 日",
 			"image": "mic.jpg",
 			"even": true,
-			"active": true,
 			"chapters": [
 				{
 					"title": "四、咪高峰",
@@ -60,6 +59,7 @@ $(function() {
 			"id": "nov6",
 			"date": "11 月 6 日",
 			"image": "mixer.jpg",
+			"active": true,
 			"chapters": [
 				{
 					"title": "七、混音器（上）",
