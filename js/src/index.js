@@ -56,22 +56,10 @@ $(function() {
 			]
 		},
 		{
-			"id": "nov6",
-			"date": "11 月 6 日",
-			"image": "mixer.jpg",
-			"active": true,
-			"chapters": [
-				{
-					"title": "七、混音器（上）",
-					"pdf": "7_混音器（上）.pdf"
-				}
-			]
-		},
-		{
 			"id": "nov13",
 			"date": "11 月 13 日",
 			"image": "worship.jpg",
-			"even": true,
+			"active": true,
 			"chapters": [
 				{
 					"title": "八、敬拜隊與音響員的團隊合作",
@@ -80,6 +68,18 @@ $(function() {
 				{
 					"title": "九、音響設置流程",
 					"pdf": "9_音響設置流程.pdf"
+				}
+			]
+		},
+		{
+			"id": "nov20",
+			"date": "11 月 20 日",
+			"image": "mixer.jpg",
+			"even": true,
+			"chapters": [
+				{
+					"title": "七、混音器（上）",
+					"pdf": "7_混音器（上）.pdf"
 				}
 			]
 		},
@@ -125,6 +125,10 @@ $(function() {
 			$nav.addClass('navbar-static-top');
 		}
 	}).scroll();
+
+	$('#top').click(function() {
+		$('#modal-url').modal();
+	});
 
 	$('#menu > ul > li > a.scrollTo').click(function(e) {
 		var target = $(this).attr('href');
