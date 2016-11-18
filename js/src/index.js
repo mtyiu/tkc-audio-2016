@@ -62,17 +62,19 @@ $(function() {
 			"chapters": [
 				{
 					"title": "八、敬拜隊與音響員的團隊合作",
-					"pdf": "8_敬拜隊與音響員的團隊合作.pdf"
+					"pdf": "8_敬拜隊與音響員的團隊合作.pdf",
+					"youtube": "nMIQmqBuxLM"
 				},
 				{
 					"title": "九、音響設置流程",
-					"pdf": "9_音響設置流程.pdf"
+					"pdf": "9_音響設置流程.pdf",
+					"youtube": "ht5CvUPqmZo"
 				}
 			]
 		},
 		{
-			"id": "nov20",
-			"date": "11 月 20 日",
+			"id": "nov19",
+			"date": "11 月 19 日",
 			"image": "mixer.jpg",
 			"even": true,
 			"active": true,
