@@ -59,7 +59,6 @@ $(function() {
 			"id": "nov13",
 			"date": "11 月 13 日",
 			"image": "worship.jpg",
-			"active": true,
 			"chapters": [
 				{
 					"title": "八、敬拜隊與音響員的團隊合作",
@@ -76,6 +75,7 @@ $(function() {
 			"date": "11 月 20 日",
 			"image": "mixer.jpg",
 			"even": true,
+			"active": true,
 			"chapters": [
 				{
 					"title": "七、混音器（上）",
