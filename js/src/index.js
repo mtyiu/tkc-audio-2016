@@ -81,7 +81,8 @@ $(function() {
 			"chapters": [
 				{
 					"title": "七、混音器（上）",
-					"pdf": "7_混音器（上）.pdf"
+					"pdf": "7_混音器（上）.pdf",
+					"youtube": "GemGQfJilXw"
 				}
 			]
 		},
