@@ -77,7 +77,6 @@ $(function() {
 			"date": "11 月 19 日",
 			"image": "mixer.jpg",
 			"even": true,
-			"active": true,
 			"chapters": [
 				{
 					"title": "七、混音器（上）",
@@ -90,6 +89,7 @@ $(function() {
 			"id": "nov27",
 			"date": "11 月 27 日",
 			"image": "mixing-desk.jpg",
+			"active": true,
 			"chapters": [
 				{
 					"title": "十、混音器（下）：Soundcraft GB2",
