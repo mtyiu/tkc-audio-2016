@@ -9,6 +9,7 @@ $(function() {
 			"id": "oct23",
 			"date": "10 月 23 日",
 			"image": "cables.jpg",
+			"active": true,
 			"chapters": [
 				{
 					"title": "課程簡介",
@@ -37,6 +38,7 @@ $(function() {
 			"date": "10 月 30 日",
 			"image": "mic.jpg",
 			"even": true,
+			"active": true,
 			"chapters": [
 				{
 					"title": "四、咪高峰",
@@ -59,6 +61,7 @@ $(function() {
 			"id": "nov13",
 			"date": "11 月 13 日",
 			"image": "worship.jpg",
+			"active": true,
 			"chapters": [
 				{
 					"title": "八、敬拜隊與音響員的團隊合作",
@@ -77,6 +80,7 @@ $(function() {
 			"date": "11 月 19 日",
 			"image": "mixer.jpg",
 			"even": true,
+			"active": true,
 			"chapters": [
 				{
 					"title": "七、混音器（上）",
@@ -92,15 +96,23 @@ $(function() {
 			"active": true,
 			"chapters": [
 				{
+					"title": "七、混音器（上）",
+					"pdf": "7_混音器（上）.pdf",
+					"youtube": "gOJKFxlJods"
+				},
+				{
 					"title": "十、混音器（下）：Soundcraft GB2",
-					"pdf": "10_混音器（下）- Soundcraft GB2.pdf"
+					"pdf": "10_混音器（下）- Soundcraft GB2.pdf",
+					"youtube": "zFOT1JJ0iDg"
 				},
 				{
 					"title": "十、混音器（下）：JamHub Bedroom",
 					"pdf": "10_混音器（下）- JamHub Bedroom.pdf"
 				},
 				{
-					"title": "實習"
+					"title": "九、音響設置流程",
+					"pdf": "9_音響設置流程.pdf",
+					"youtube": "TTq3DOPSgOo"
 				}
 			]
 		}
